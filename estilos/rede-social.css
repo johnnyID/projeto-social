@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* pseudo-elemento de parte interna ou pseudo-elemento específico de componente nativo, permite estilizar partes internas ou especificas de elementos HTML que normalmente não são diretamente acessíveis ou estilizáveis via CSS padrão.
+
+::-webkit0scrollbar permite estilizar a barra de rolagem. */
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+
+img{
+    width: 100vw;
+}
+
+a{
+    display: block;
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 20px;
+    margin-top: -4px;
+}
+
+a:hover{
+    background-color: red;
+    transition: background-color 0.75s;
+}
